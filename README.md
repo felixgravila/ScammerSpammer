@@ -1,5 +1,5 @@
 # ScammerSpammer
-Spam scammer databases
+Spam scammer databases with more complex e-mail addresses and passwords
 
 ## Setup
 * Edit scammer.py with the target url
