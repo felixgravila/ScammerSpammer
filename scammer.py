@@ -41,17 +41,17 @@ def makeRandomMailAddress():
     provider = random.choice(providers)
     m = ""
     if random.uniform(0,1) > 0.75:
-        m = m + fst[0] + snd 
+        m = m + fst[0] + snd
     else:
         m = m + fst + join + snd
-    
+
     if random.uniform(0,1) > 0.75:
         if random.uniform(0,1) > 0.5:
             ryear = str(int(random.uniform(1950, 2010)))
         else:
             ryear = str(int(random.uniform(0,99)))
         m = m + ryear
-    
+
     return m + "@" + provider + ".com"
 
 
@@ -59,6 +59,6 @@ for i in range(0,spamcalls):
     mail = makeRandomMailAddress()
     pwd = random.choice(passwords)
     data = makePayload(mail,pwd)
-    requests.post(url, data=data)
+    response = requests.post(url, data=data).status_code
     i += 1
-    print("%s - %s %s" % (i, mail, pwd))
+    print("%s - %s %s (%s)" % (i, mail, pwd, response))
