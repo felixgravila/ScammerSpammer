@@ -10,17 +10,17 @@ Spam scammer databases with more complex e-mail addresses and passwords
 ```bash
 python3 scammer.py
 ```
-prints the e-mail and password it sends, for example:
+prints the e-mail and password it sends, and the request status code:
 
 ```
-1 - perlellwein43@yahoo.com Johnson31
-2 - rmayans2008@yahoo.com Victoria
-3 - echew@mail.com Access70
-4 - rrousse@aol.com Fantasy81
-5 - gwenni-jahncke2009@yahoo.com Password1
-6 - irma_arlotta1@yahoo.com Mother14
-7 - starlinteder@aol.com Williams
-8 - dorisa_salon1960@icloud.com.com Toyota96
-9 - rpricer59@icloud.com.com Franklin
-10 - etti-disponette@outlook.com Raider76
+1 - arosebure61@aol.com Nathan37 (200)
+2 - lennagrabler@icloud.com.com Eagle199 (200)
+3 - camel-castronova@gmail.com Mother35 (200)
+4 - annadianashuman@gmail.com Jonathan (200)
+5 - bert.muchortow@outlook.com August37 (200)
+6 - hremaley@outlook.com Password11223334 (200)
+7 - karen.voskamp@aol.com Digital62 (200)
+8 - carolyn_vitrano@aol.com A1234558 (200)
+9 - cluague1955@aol.com Password55559268 (200)
+10 - florri-korbin@outlook.com Password15935794 (200)
 ```
